@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.head1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 209, 158);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(6, 209, 158, 0.575); 
+    box-shadow: 0px 2px 7px 0px rgba(6, 209, 158, 0.575);
+}
+
+#srch1{
+    background-color: rgb(200, 213, 226);
+    outline: none;
+    width: 15%;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 30px;
+    padding-left: 0.5%;
+    border: rgb(170, 255, 0) 2px solid;
+    border-radius: 0.5rem;
+}
+
+#srch1:hover{
+    background-color: rgb(231, 239, 247) ;
+}
+
+.menu{
+    background-color: #FFEB3C;
+    float: left;
+    text-align: center;
+    width: 15%;
+    height: 700px;
+    border: solid rgb(6, 209, 158) 4px;  
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+    -webkit-box-shadow: 4px 1px 20px -2px rgb(170, 255, 0); 
+    box-shadow: 4px 1px 20px -2px rgb(170, 255, 0);
+}
+
+.list{
+    width: 100%;
+    height: 60px;
+    border: solid rgb(6, 209, 158) 4px;
+    border-top: none;
+    border-left: none;
+    list-style-type: none;
+    border-left: none; 
+    border-right: none;
+    background-color: #FFEB3C;
+    border-top-right-radius: 1.9rem;
+}
+
+.list1{
+    width: 100%;
+    height: 55px;
+    border: dashed rgb(255, 196, 0) 3px;
+    padding-top: 15px;
+    border-top: none;
+    border-left: none;
+    list-style-type: none;
+    border-left: none; 
+    border-right: none;
+    background-color: #FFEB3C;
+}
+
+.list1:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+.list2{
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+    border:dashed rgb(255, 196, 0) 3px;
+    border-top: none;
+    border-left: none;
+    list-style-type: none;
+    border-right: none;
+    background-color: #FFEB3C;
+}
+
+.list2:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+
+.telnum{
+    width: 100%;
+    height: 90px;
+    padding-top: 17px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(6, 209, 158);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   ;
+}
+    
+.prod1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ 
+.sidebar{
+    background-color: #FFEB3C ;
+    text-align: center;
+    margin-left: 85%;
+    width: 15%;
+    height: 700px;
+    border: solid rgb(6, 209, 158) 4px;  
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem ;
+    -webkit-box-shadow: -5px 1px 17px -3px #98FF00; 
+    box-shadow: -5px 1px 17px -3px #98FF00;
+}
+
+.log{
+    width: 100%;
+    height: 55px;
+    border: dashed rgb(255, 196, 0) 3px;
+    border-top-left-radius: 2rem;
+    padding-top: 15px;
+    border-top: none;
+    border-left: none;
+    list-style-type: none;
+    border-left: none; 
+    border-right: none;
+    background-color: #FFEB3C;
+    cursor: pointer;
+}
+
+.log1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.log:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+
+.reg{
+    width: 100%;
+    height: 55px;
+    border: dashed rgb(255, 196, 0) 3px;
+    padding-top: 15px;
+    border-top: none;
+    border-left: none;
+    list-style-type: none;
+    border-left: none; 
+    border-right: none;
+    background-color: #FFEB3C;
+    cursor: pointer;
+}
+
+.reg1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reg:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+
+body{
+    background-color: rgb(182, 232, 255);
+}
+
+.img1{
+    width: 100%;
+    height: 90px;
+}
+
+.img{
+    width: 9%;
+    height: 90px;
+    margin-left: 15%;
+    margin-top: 2.5px;
+    float: left;
+}
+
+.ifr1{
+    width: 100%;
+    height: 195px;
+    background-color: #FFEB3C ;
+}
+
+.ifr2{
+    width: 100%;
+    height: 195px;
+    background-color: #FFEB3C;
+}
+
+.iframe1{
+    width: 95%;
+    height: 190px;
+    margin-top: 2.5px;
+    margin-left: 1.5%;
+    border: solid rgb(6, 209, 158) 2px;
+    background-color: rgb(255, 255, 153) ;
+    border-radius: 0.5rem;
+}
+
+.iframe2{
+    width: 95%;
+    height: 190px;
+    margin-top: 2.5px;
+    margin-left: 1.5%;
+    border: solid rgb(6, 209, 158) 2px;
+    background-color: rgb(255, 255, 153) ;
+    border-radius: 0.5rem;
+}
+
+.about{
+    width: 100%;
+    height: 55px;
+    border: dashed rgb(255, 196, 0) 3px;
+    padding-top: 15px;
+    list-style-type: none;
+    border-left: none; 
+    border-right: none;
+    background-color: #FFEB3C;
+    cursor:pointer;
+}
+
+.about1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+
+.ourstores{
+    border: dashed rgb(255, 196, 0) 3px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+    list-style-type: none;
+    background-color: #FFEB3C;
+    cursor: pointer;
+
+}
+
+.ourstores1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ourstores:hover{
+    -webkit-box-shadow: inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    -moz-box-shadow:    inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+    box-shadow:         inset -2px -2px 30px 2px rgba(0, 255, 170, 0.51);
+}
+
+.login{
+    float: left;
+    width: 70%;
+    height: 700px;
+}
+
+.loginall{
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(16,254,255,0.56); 
+    box-shadow: 0px 0px 11px 7px rgba(16,254,255,0.56);
+    border: rgb(238, 255, 0) 4px solid;
+    background-color: rgb(0, 255, 234);
+    border-radius: 2rem;
+    border-top: none;
+    border-bottom: none;
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    
+}
+
+.logtext{
+    float: left;
+    border: deeppink 2px dashed;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 50%;
+    height: 60px;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(253, 55, 55);
+    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#form1{ 
+    width: 70%;
+    height: 250px;
+    margin-left: 15%;
+}
+
+#emorphn{
+    float: left;
+    width: 100%;
+    height: 60px;
+    outline: none;
+    background-color:  rgb(0, 255, 234);
+    border: orange 2px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 2%;
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(255, 81, 0);
+}
+
+#pass{
+    float: left;
+    width: 100%;
+    height: 60px;
+    outline: none;
+    background-color:  rgb(0, 255, 234);  
+    border: orange 2px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 2%;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: sans-serif ;
+    color: rgb(255, 81, 0);
+}
+
+#submit1{
+    width: 30%;
+    height: 60px;
+    outline: none;
+    border: #7aff3c 2px solid  ;
+    background-color: #06D19E;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#submit1:hover{
+    background-color: #4fe0bc;
+    transition: 0.5s;
+}
+
+.forgotpass{
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.forgotpass:hover{
+    text-decoration: underline;
+}
